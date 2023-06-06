@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="HTEMB Archive">
+    <meta name="keywords" content="Tag: Embroidery Patterns, HTEMB Archive">
     <meta name="description" content="HTEMB Archive">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,53 +17,12 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>HTEMB Archive</title>
+    <title>Tag: Embroidery Patterns | HTEMB Archive</title>
     <link rel="icon" type="image/png" href="/medias/favicon.png">
     
 
 
-    <!-- index cover -->
-    <!-- <link rel="stylesheet preload" type="text/css" href="/css/indexcover.css"> -->
-    <style>
-        .carousel-control {
-            width: 45px;
-            height: 45px;
-            line-height: 55px;
-            border-radius: 45px;
-            background: transparent;
-            cursor: pointer;
-            z-index: 100;
-        }
-        
-        #prev-cover {
-            position: absolute;
-            top: 48%;
-            left: 8px;
-        }
-        
-        #next-cover {
-            position: absolute;
-            top: 48%;
-            right: 8px;;
-        }
-        
-        #prev-cover i {
-            margin-right: 3px;
-        }
-        
-        #next-cover i {
-            margin-left: 3px;
-        }
-        
-        .carousel-control:hover {
-            background-color: rgba(0, 0, 0, .4);
-        }
-        
-        .carousel-control i {
-            color: #fff;
-            font-size: 2.4rem;
-        }
-    </style>
+    <!-- bg-cover style     -->
 
 
 
@@ -84,6 +43,8 @@
 
 
 
+
+    
 
 
 
@@ -367,15 +328,9 @@
 
 </header>
 
-    
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-
-    <div class="carousel-item  white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -416,210 +371,160 @@
 </script>
 
 
-
-            <div class="cover-btns">
-                <a href="#indexCard" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>Start
-                </a>
-
-                
-                    <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light btn" target="_blank">
-                        <i class="fab fa-github-alt"></i>Github
-                    </a>
-                
-            </div>
-            <div class="cover-social-link">
-
-
-    <a href="mailto:bfsuhstembroidery@126.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=481668230" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 481668230" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-</div>
-        </div>
     </div>
-
-    
 </div>
-
-<script>
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
-                }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('120'),
-            fullWidth: true,
-            indicators: 'true' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
-
-        function restartPlay() {
-            
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
-        };
-
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
-        
-    });
-</script>
-
-
 
 <main class="content">
 
     
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;About our Website
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            Dear visitors, welcome to allabouthorsetailembroidery.com.cn. Here, we introduce you to the fascinating art of Horsetail embroidery(HTEMB), a national-level intangible cultural heritage(ICH) of China. We made great efforts to gather various information about Horsetail embroidery, accompanied by explanatory pictures and videos, aiming to provide the most comprehensive platform for exploring the beauty of this craft. This website collaborates with the inheritors of Horsetail embroidery, production enterprises, and local governments, and it will be regularly updated. Click on the &#34;Guidance&#34; blog to embark on your journey into the world of Horsetail embroidery.
+
+<div id="tags" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;Post Tags
+            </div>
+            <div class="tag-chips">
+                
+                
+                <a href="/tags/Techniques/" title="Techniques: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Techniques" style="background-color: #F9EBEA;">Techniques
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Embroidery-Patterns/" title="Embroidery Patterns: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="Embroidery Patterns" style="background-color: #F5EEF8;">Embroidery Patterns
+                        <span class="tag-length">4</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/History/" title="History: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="History" style="background-color: #D5F5E3;">History
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Legends/" title="Legends: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Legends" style="background-color: #E8F8F5;">Legends
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Commercialization/" title="Commercialization: 5">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Commercialization" style="background-color: #FEF9E7;">Commercialization
+                        <span class="tag-length">5</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Stories/" title="Stories: 5">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Stories" style="background-color: #F8F9F9;">Stories
+                        <span class="tag-length">5</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Products/" title="Products: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Products" style="background-color: #82E0AA;">Products
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Song-Shuixian/" title="Song Shuixian: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Song Shuixian" style="background-color: #D7BDE2;">Song Shuixian
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Wei-Taohua/" title="Wei Taohua: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Wei Taohua" style="background-color: #A3E4D7;">Wei Taohua
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Pan-Shuiai/" title="Pan Shuiai: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Pan Shuiai" style="background-color: #85C1E9;">Pan Shuiai
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Wei-Jiagui/" title="Wei Jiagui: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Wei Jiagui" style="background-color: #F8C471;">Wei Jiagui
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Female/" title="Female: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Female" style="background-color: #F9E79F;">Female
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Poverty-eradication/" title="Poverty eradication: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Poverty eradication" style="background-color: #85C1E9;">Poverty eradication
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+            </div>
         </div>
     </div>
 </div>
 
-                    
-
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
-                        
-
-
-
-
-
-<div class="title"><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;Recommended Posts</div>
-
-<div class="row">
-
-    
-    
-    <div class="col s12" >
-        
-             <div class="post-card" style="background-image: url('/medias/blog-main/1.jpg')">
-        
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                    
-                </div>
-                <a href="/2023/05/22/guidance/">
-                    <h3 class="post-title">guidance</h3>
-                </a>
-                <p class="post-description">Horsetail embroidery is a special art form handed down from generation to generation </p>
-                <a href="/2023/05/22/guidance/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>Read more
-                </a>
-            </div>
-        </div>
-    </div>
     
 
-</div>
-
-
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    
-
-    <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
-        <div class="row article-row">
+        <div class="row tags-posts">
             
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="Techniques, Embroidery Patterns, History, Legends, Commercialization, Stories, Products, Song Shuixian, Wei Taohua, Pan Shuiai, Wei Jiagui, Female, Poverty eradication" data-aos="fade-up">
                 <div class="card">
                     <a href="/2023/05/22/guidance/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="/medias/blog-main/1.jpg" class="responsive-img" alt="guidance">
                             
                             <span class="card-title">guidance</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Horsetail embroidery is a special art form handed down from generation to generation among the women of the Shui ethnic 
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2023-05-22
@@ -632,86 +537,21 @@
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Techniques/">
-                            <span class="chip bg-color">Techniques</span>
-                        </a>
-                        
-                        <a href="/tags/Embroidery-Patterns/">
-                            <span class="chip bg-color">Embroidery Patterns</span>
-                        </a>
-                        
-                        <a href="/tags/History/">
-                            <span class="chip bg-color">History</span>
-                        </a>
-                        
-                        <a href="/tags/Legends/">
-                            <span class="chip bg-color">Legends</span>
-                        </a>
-                        
-                        <a href="/tags/Commercialization/">
-                            <span class="chip bg-color">Commercialization</span>
-                        </a>
-                        
-                        <a href="/tags/Stories/">
-                            <span class="chip bg-color">Stories</span>
-                        </a>
-                        
-                        <a href="/tags/Products/">
-                            <span class="chip bg-color">Products</span>
-                        </a>
-                        
-                        <a href="/tags/Song-Shuixian/">
-                            <span class="chip bg-color">Song Shuixian</span>
-                        </a>
-                        
-                        <a href="/tags/Wei-Taohua/">
-                            <span class="chip bg-color">Wei Taohua</span>
-                        </a>
-                        
-                        <a href="/tags/Pan-Shuiai/">
-                            <span class="chip bg-color">Pan Shuiai</span>
-                        </a>
-                        
-                        <a href="/tags/Wei-Jiagui/">
-                            <span class="chip bg-color">Wei Jiagui</span>
-                        </a>
-                        
-                        <a href="/tags/Female/">
-                            <span class="chip bg-color">Female</span>
-                        </a>
-                        
-                        <a href="/tags/Poverty-eradication/">
-                            <span class="chip bg-color">Poverty eradication</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
-              <!-- 隐藏某个文章 -->
             
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="Embroidery Patterns, Legends, Stories" data-aos="fade-up">
                 <div class="card">
                     <a href="/2023/05/21/Stories-behind-various-embroidery-patterns/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="/medias/blog_2/1.jpg" class="responsive-img" alt="Stories behind various embroidery patterns">
                             
                             <span class="card-title">Stories behind various embroidery patterns</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                There are various kinds of embroidery patterns being used in the Horsetail embroidery, such as the butterfly pattern sym
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2023-05-21
@@ -724,271 +564,21 @@
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Embroidery-Patterns/">
-                            <span class="chip bg-color">Embroidery Patterns</span>
-                        </a>
-                        
-                        <a href="/tags/Legends/">
-                            <span class="chip bg-color">Legends</span>
-                        </a>
-                        
-                        <a href="/tags/Stories/">
-                            <span class="chip bg-color">Stories</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
-              <!-- 隐藏某个文章 -->
             
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/05/21/History-and-Evolution-of-Horsetail-embroidery/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/blog_1/1.jpg" class="responsive-img" alt="History and Evolution of Horsetail embroidery">
-                            
-                            <span class="card-title">History and Evolution of Horsetail embroidery</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                The History of Horsetail embroideryCenturies ago, the Shui ethnic group embarked on a challenging journey across towerin
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-21
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                宋一凡
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/History/">
-                            <span class="chip bg-color">History</span>
-                        </a>
-                        
-                        <a href="/tags/Legends/">
-                            <span class="chip bg-color">Legends</span>
-                        </a>
-                        
-                        <a href="/tags/Commercialization/">
-                            <span class="chip bg-color">Commercialization</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
             
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/05/21/empowering-women/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/blog_7/1.jpg" class="responsive-img" alt="empowering women">
-                            
-                            <span class="card-title">empowering women</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                The year 2006 proved to be an exceptional milestone for Wei Taohua. In June, the Horsetail embroidery she passionately p
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-21
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                于子阳 肖岚杰
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Stories/">
-                            <span class="chip bg-color">Stories</span>
-                        </a>
-                        
-                        <a href="/tags/Female/">
-                            <span class="chip bg-color">Female</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/05/20/improving-the-lives-of-impoverished-locals/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/blog_6/1.jpg" class="responsive-img" alt="improving the lives of impoverished locals">
-                            
-                            <span class="card-title">improving the lives of impoverished locals</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                The San Du County government actively promotes the commercialization of Horsetail embroidery, utilizing this intangible 
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-20
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                江心悦
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Commercialization/">
-                            <span class="chip bg-color">Commercialization</span>
-                        </a>
-                        
-                        <a href="/tags/Stories/">
-                            <span class="chip bg-color">Stories</span>
-                        </a>
-                        
-                        <a href="/tags/Wei-Taohua/">
-                            <span class="chip bg-color">Wei Taohua</span>
-                        </a>
-                        
-                        <a href="/tags/Poverty-eradication/">
-                            <span class="chip bg-color">Poverty eradication</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2023/05/19/Stories-of-Inheritors/">
-                        <div class="card-image">
-                            
-                            <img src="/medias/blog_5/1.jpg" class="responsive-img" alt="Stories of Inheritors">
-                            
-                            <span class="card-title">Stories of Inheritors</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Inheritors are those who represent a profound national and folk cultural tradition, having mastered an exceptional techn
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-19
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                程云帆
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Commercialization/">
-                            <span class="chip bg-color">Commercialization</span>
-                        </a>
-                        
-                        <a href="/tags/Stories/">
-                            <span class="chip bg-color">Stories</span>
-                        </a>
-                        
-                        <a href="/tags/Song-Shuixian/">
-                            <span class="chip bg-color">Song Shuixian</span>
-                        </a>
-                        
-                        <a href="/tags/Wei-Taohua/">
-                            <span class="chip bg-color">Wei Taohua</span>
-                        </a>
-                        
-                        <a href="/tags/Pan-Shuiai/">
-                            <span class="chip bg-color">Pan Shuiai</span>
-                        </a>
-                        
-                        <a href="/tags/Wei-Jiagui/">
-                            <span class="chip bg-color">Wei Jiagui</span>
-                        </a>
-                        
-                        <a href="/tags/Female/">
-                            <span class="chip bg-color">Female</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            <div class="article tag-post col s12 m6 l4" data-tags="Embroidery Patterns, Commercialization, Products" data-aos="fade-up">
                 <div class="card">
                     <a href="/2023/05/18/Horsetail-embroidered-products/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="/medias/blog_4/1.jpg" class="responsive-img" alt="Horsetail embroidered products">
                             
                             <span class="card-title">Horsetail embroidered products</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Different types of Horsetail embroidered products预留的链接
-Traditional costumes-ClothingMen’s clothing: In recent years, men
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2023-05-18
@@ -1001,46 +591,21 @@ Traditional costumes-ClothingMen’s clothing: In recent years, men
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Embroidery-Patterns/">
-                            <span class="chip bg-color">Embroidery Patterns</span>
-                        </a>
-                        
-                        <a href="/tags/Commercialization/">
-                            <span class="chip bg-color">Commercialization</span>
-                        </a>
-                        
-                        <a href="/tags/Products/">
-                            <span class="chip bg-color">Products</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
-              <!-- 隐藏某个文章 -->
             
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="Techniques, Embroidery Patterns" data-aos="fade-up">
                 <div class="card">
                     <a href="/2023/05/17/Crafting%20Procedures%20and%20Embroidery%20Techniques/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="/medias/blog/1.jpg" class="responsive-img" alt="Crafting Procedures and Embroidery Techniques">
                             
                             <span class="card-title">Crafting Procedures and Embroidery Techniques</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                The unique crafting process Shui Horsetail embroidery can be divided into six distinct steps.Step 1 drawing the patterns
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2023-05-17
@@ -1053,27 +618,11 @@ Traditional costumes-ClothingMen’s clothing: In recent years, men
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Techniques/">
-                            <span class="chip bg-color">Techniques</span>
-                        </a>
-                        
-                        <a href="/tags/Embroidery-Patterns/">
-                            <span class="chip bg-color">Embroidery Patterns</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
-              <!-- 隐藏某个文章 -->
             
         </div>
     </article>
-
 </main>
 
 
